@@ -454,6 +454,7 @@ const Carousel = React.createClass({
 
   stopAutoplay() {
     this.autoplayID && clearInterval(this.autoplayID);
+    this.autoplayID = null;
   },
 
   // Action Methods
